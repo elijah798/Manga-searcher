@@ -1,0 +1,182 @@
+.container {
+  padding: 4em;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
+  text-decoration: none;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.search-box {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  position: fixed;
+  top: 97%;
+  left: 97%;
+  -webkit-transform: translate(-97%, -97%);
+          transform: translate(-97%, -97%);
+  background: #1E1B18;
+  height: 40px;
+  border-radius: 40px;
+  padding: 10px;
+  width: auto;
+}
+
+.search-box .search-btn {
+  color: #F0F3F5;
+  float: right;
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background: #1E1B18;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+}
+
+.search-box .search-txt {
+  border: none;
+  background: none;
+  outline: none;
+  float: left;
+  padding: 0;
+  color: #F0F3F5;
+  font-size: 16px;
+  -webkit-transition: 0.4s;
+  transition: 0.4s;
+  line-height: 40px;
+  width: 0px;
+}
+
+.search-btn:focus > .search-txt {
+  width: 300px;
+  padding: 0px 6px;
+}
+
+.search-txt:focus > .search-btn {
+  color: #1E1B18;
+  background: #F0F3F5;
+}
+
+.search-box:hover > .search-txt {
+  width: 300px;
+  padding: 0px 6px;
+}
+
+.search-box:hover > .search-btn {
+  color: #1E1B18;
+  background: #F0F3F5;
+}
+
+.card {
+  height: 200px;
+  width: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 2em;
+  background-color: #F0F3F5;
+  padding: 3em;
+  border-radius: .3em;
+  -webkit-box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+          box-shadow: 10px 10px 30px rgba(0, 0, 0, 0.1);
+}
+
+.content {
+  margin: 2em;
+}
+
+img {
+  border: solid 0.6px;
+  width: 10em;
+  height: auto;
+}
+
+.anime-data {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  float: left;
+}
+
+.episodes {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.episodes p {
+  float: left;
+}
+
+.episodes span {
+  float: right;
+}
+
+.rating {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  height: auto;
+  width: 40px;
+}
+
+.completed p {
+  font-weight: bolder;
+  color: #00c200;
+}
+
+.mal {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.mal a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.titlepage {
+  position: absolute;
+  top: 50%;
+  left: 40%;
+}
+
+body {
+  background-color: #F0F3F5;
+}
+/*# sourceMappingURL=style.css.map */
